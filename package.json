@@ -1,0 +1,16 @@
+{
+  "name": "type-challenges",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Jamie Magee <jamie.magee@gmail.com>",
+  "repository": "https://github.com/JamieMagee/type-challenges",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "1.0.0",
+    "@type-challenges/utils": "0.1.1",
+    "typescript": "4.0.5"
+  }
+}
