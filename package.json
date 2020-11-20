@@ -7,8 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "prettier": "prettier -l \"**/*.{ts,md}\"",
-    "prettier-fix": "prettier -w \"**/*.{ts,md}\""
+    "prettier": "prettier -w \"**/*.{ts,md}\" --loglevel silent"
   },
   "devDependencies": {
     "@tsconfig/node14": "1.0.0",
