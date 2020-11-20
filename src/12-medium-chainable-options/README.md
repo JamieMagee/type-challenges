@@ -5,24 +5,24 @@ In this challenge, you need to type an object or a class - whatever you like - t
 For example
 
 ```ts
-declare const config: Chainable
+declare const config: Chainable;
 
 const result = config
   .option('foo', 123)
   .option('name', 'type-challenges')
   .option('bar', { value: 'Hello World' })
-  .get()
+  .get();
 
 // expect the type of result to be:
 interface Result {
-  foo: number
-  name: string
+  foo: number;
+  name: string;
   bar: {
-    value: string
-  }
+    value: string;
+  };
 }
 ```
 
-You don't need to write any js/ts logic to handle the problem - just in type level. 
+You don't need to write any js/ts logic to handle the problem - just in type level.
 
 You can assume that `key` only accept `string` and the `value` and be anything - just leave it as-is. Same `key` won't be passed twice.

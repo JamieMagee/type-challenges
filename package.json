@@ -6,11 +6,14 @@
   "repository": "https://github.com/JamieMagee/type-challenges",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prettier": "prettier -l \"**/*.{ts,md}\"",
+    "prettier-fix": "prettier -w \"**/*.{ts,md}\""
   },
   "devDependencies": {
     "@tsconfig/node14": "1.0.0",
     "@type-challenges/utils": "0.1.1",
+    "prettier": "2.2.0",
     "typescript": "4.1.2"
   }
 }

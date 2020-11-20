@@ -3,5 +3,5 @@ Implement `TrimLeft<T>` which takes an exact string type and returns a new strin
 For example
 
 ```ts
-type trimed = TrimLeft<'  Hello World  '> // expected to be 'Hello World  '
+type trimed = TrimLeft<'  Hello World  '>; // expected to be 'Hello World  '
 ```

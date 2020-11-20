@@ -5,21 +5,21 @@ You can assume that we are only dealing with Objects in this challenge. Arrays, 
 For example
 
 ```ts
-type X = { 
-  x: { 
-    a: 1
-    b: 'hi'
-  }
-  y: 'hey'
-}
+type X = {
+  x: {
+    a: 1;
+    b: 'hi';
+  };
+  y: 'hey';
+};
 
-type Expected = { 
-  readonly x: { 
-    readonly a: 1
-    readonly b: 'hi'
-  }
-  readonly y: 'hey' 
-}
+type Expected = {
+  readonly x: {
+    readonly a: 1;
+    readonly b: 'hi';
+  };
+  readonly y: 'hey';
+};
 
-const todo: DeepReadonly<X> // should be same as `Expected`
+const todo: DeepReadonly<X>; // should be same as `Expected`
 ```
