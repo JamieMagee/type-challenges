@@ -27,6 +27,11 @@
   resolved "https://registry.yarnpkg.com/@types/markdown-table/-/markdown-table-2.0.0.tgz#d2a3458c61ee71c8ee2b40b76c199b85b8dbd70c"
   integrity sha512-fVZN/DRjZvjuk+lo7ovlI/ZycS51gpYU5vw5EcFeqkcX6lucQ+UWgEOH2O4KJHkSck4DHAY7D7CkVLD0wzc5qw==
 
+"@types/repeat-string@^1.0.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@types/repeat-string/-/repeat-string-1.6.0.tgz#79fa5c9e9b5fad3247b497ca67b021f78cacfdf2"
+  integrity sha512-Nwr4xMZBJKzluvdF9QPKjqFi8EpR63jk0mQPBEXB/+kevUPBftRQrbt24m+NkRh0C9ftrNIqnnsDw9iyQv/j7g==
+
 argparse@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
@@ -44,11 +49,12 @@ lz-string@1.4.4:
   resolved "https://registry.yarnpkg.com/lz-string/-/lz-string-1.4.4.tgz#c0d8eaf36059f705796e1e344811cf4c498d3a26"
   integrity sha1-wNjq82BZ9wV5bh40SBHPTEmNOiY=
 
-markdown-table@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-2.0.0.tgz#194a90ced26d31fe753d8b9434430214c011865b"
-  integrity sha512-Ezda85ToJUBhM6WGaG6veasyym+Tbs3cMAw/ZhOPqXiYsr0jgocBV3j3nx+4lk47plLlIqjwuTm/ywVI+zjJ/A==
+markdown-table@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-3.0.0.tgz#7f6537d4565c3cec712ac7b34b345f404b46506a"
+  integrity sha512-sSFatFzGRPVHCKgj80iNcYDdySAGS36qBzPON99RO0Zl5YwkK38zmhMQ0QSJik3YxGroyBnqP51ZGLueDtOqmg==
   dependencies:
+    "@types/repeat-string" "^1.0.0"
     repeat-string "^1.0.0"
 
 prettier@2.3.0:
