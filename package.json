@@ -10,7 +10,7 @@
     "prettier": "prettier -w \"**/*.{ts,md,yml}\" --loglevel silent"
   },
   "devDependencies": {
-    "@tsconfig/node14": "1.0.1",
+    "@tsconfig/node14": "1.0.2",
     "@type-challenges/utils": "0.1.1",
     "@types/js-yaml": "4.0.5",
     "@types/lz-string": "1.3.34",
